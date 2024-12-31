@@ -1,0 +1,34 @@
+.w-125{
+    width: 100%; 
+}
+.bg-black{
+    background-color: black;
+    height: 30px;
+}
+.card-main-heading{
+    background-color: #faebd745 !important;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.fs-3rem{
+    font-size: 3rem;
+}
+.bg-white{
+    background-color: white;
+}
+.pointer
+{
+    cursor: pointer;
+}
+
+@include media-breakpoint-down(md) {
+    .custom-class {
+      display: block;
+    }
+  }
+
+.col-2{
+    display: flex;
+}
+ 
